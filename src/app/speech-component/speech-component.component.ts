@@ -62,7 +62,6 @@ export class SpeechComponentComponent implements OnInit, OnDestroy {
       });
 
     const onEnd = stop$.subscribe(() => {
-      debugger;
       if (this.isAutoRestarting) {
         this.isAutoRestarting = false;
         this.recognition.start();

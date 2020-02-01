@@ -948,8 +948,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           });
           var onEnd = stop$.subscribe(function () {
-            debugger;
-
             if (_this.isAutoRestarting) {
               _this.isAutoRestarting = false;
 

@@ -459,7 +459,6 @@ let SpeechComponentComponent = class SpeechComponentComponent {
             //  this.onSpeechFound.emit(text);
         });
         const onEnd = stop$.subscribe(() => {
-            debugger;
             if (this.isAutoRestarting) {
                 this.isAutoRestarting = false;
                 this.recognition.start();
