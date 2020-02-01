@@ -1,0 +1,4 @@
+<button (click)="handleToggle()">{{ isRecording ? "Stop" : "Start" }}</button>
+
+<!-- <p>Recognized: {{ onSpeechFound | async }}</p> -->
+<p *ngFor="let text of textData">{{ text }}</p>
